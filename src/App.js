@@ -16,6 +16,13 @@ import img4 from './assets/imgMen/img4.jpeg'
 import img5 from './assets/imgMen/img5.jpeg'
 import img6 from './assets/imgMen/img6.jpeg'
 
+import img7 from './assets/imgWomen/img7.jpeg'
+import img8 from './assets/imgWomen/img8.jpeg'
+import img9 from './assets/imgWomen/img9.jpeg'
+import img10 from './assets/imgWomen/img10.jpeg'
+import img11 from './assets/imgWomen/img11.jpeg'
+import img12 from './assets/imgWomen/img12.jpeg'
+
 
 const Man = [
   {
@@ -50,7 +57,38 @@ const Man = [
   }
 ]
 
-
+const Woman = [
+  {
+    image: img7,
+    title: 'Широкие шорты из хлопка',
+    price: '2 999'
+  },
+  {
+    image: img8,
+    title: 'Брюки прямого кроя изо льна',
+    price: '2 999'
+  },
+  {
+    image: img9,
+    title: 'Свободная футболка с карманом',
+    price: '1 999'
+  },
+  {
+    image: img10,
+    title: 'Хлопковое платье с драпировкой',
+    price: '3 599'
+  },
+  {
+    image: img11,
+    title: 'Вязаное платье миди в полоску',
+    price: '3 599'
+  },
+  {
+    image: img12,
+    title: 'Джинсы wide leg с разрывами',
+    price: '3 999'
+  }
+]
 
 function App() {
   return (
@@ -70,6 +108,16 @@ function App() {
             />
           ))
         }
+        {
+          Women.map(item => (
+            <Woman 
+              image={item.image}
+              title={item.title}
+              price={item.price}
+            />
+          ))
+        }
+
       </Routes>
     </BrowserRouter>
 
