@@ -9,19 +9,19 @@ import About from './Components/About/About';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 
-import img1 from './assets/imgMen/img1.jpeg'
-import img2 from './assets/imgMen/img2.jpeg'
-import img3 from './assets/imgMen/img3.jpeg'
-import img4 from './assets/imgMen/img4.jpeg'
-import img5 from './assets/imgMen/img5.jpeg'
-import img6 from './assets/imgMen/img6.jpeg'
+import img1 from './assets/imgProduts/imgMen/img1.jpeg'
+import img2 from './assets/imgProduts/imgMen/img2.jpeg'
+import img3 from './assets/imgProduts/imgMen/img3.jpeg'
+import img4 from './assets/imgProduts/imgMen/img4.jpeg'
+import img5 from './assets/imgProduts/imgMen/img5.jpeg'
+import img6 from './assets/imgProduts/imgMen/img6.jpeg'
 
-import img7 from './assets/imgWomen/img7.jpg'
-import img8 from './assets/imgWomen/img8.jpg'
-import img9 from './assets/imgWomen/img9.jpg'
-import img10 from './assets/imgWomen/img10.jpg'
-import img11 from './assets/imgWomen/img11.jpg'
-import img12 from './assets/imgWomen/img12.jpg'
+import img7 from './assets/imgProduts/imgWomen/img7.jpg'
+import img8 from './assets/imgProduts/imgWomen/img8.jpg'
+import img9 from './assets/imgProduts/imgWomen/img9.jpg'
+import img10 from './assets/imgProduts/imgWomen/img10.jpg'
+import img11 from './assets/imgProduts/imgWomen/img11.jpg'
+import img12 from './assets/imgProduts/imgWomen/img12.jpg'
 
 
 const Man = [
