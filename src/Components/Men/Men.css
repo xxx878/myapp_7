@@ -1,0 +1,10 @@
+.Men {
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.Men img {
+    display: inline-block;
+    width: 100%;
+}

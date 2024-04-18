@@ -1,0 +1,8 @@
+.container {
+    justify-content: space-between;
+
+}
+
+.header_link-item:not(:last-child) {
+    padding-right: 18px;
+}
